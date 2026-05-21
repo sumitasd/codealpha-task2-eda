@@ -1,0 +1,17 @@
+CODE ALPHA INTERNSHIP — Power BI Import Instructions (Task 2)
+
+1) Open Power BI Desktop
+2) Click: File → Import/Export (or Get Data) → Text/CSV
+3) Select these CSVs (from this Task 2 folder):
+   - powerbi_category_summary.csv
+   - powerbi_rating_summary.csv
+   - powerbi_availability_summary.csv
+   - powerbi_kpi_summary.csv
+
+4) Recommended model:
+   - Create relationships using Price_Category / Rating / Availability fields if needed.
+   - Use the KPI CSV as a single table for cards/metrics.
+
+5) Dashboard building:
+   - Use provided templates if available in your main project folder.
+
