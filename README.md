@@ -23,10 +23,11 @@ After running the analysis you will get:
   - `powerbi_kpi_summary.csv`
 
 ## Files in this folder
-- `code_alpha_analysis.py` — main analysis script (loads CSV, prints insights, generates PNGs, exports Power BI CSVs)
+- `eda.py` — additional EDA script (generates `eda_analysis.png`)
 - `run_analysis.bat` — one-click launcher
 - `requirements.txt` — Python dependencies
 - `powerbi_books_detailed.csv` — input dataset
+
 
 ## How to run
 ### Option A — One click (Windows)
@@ -35,7 +36,8 @@ After running the analysis you will get:
 ### Option B — Run manually
 From this folder:
 ```bat
-py code_alpha_analysis.py
+py eda.py
+
 ```
 
 ## Notes
